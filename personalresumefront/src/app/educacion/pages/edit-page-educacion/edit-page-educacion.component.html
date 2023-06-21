@@ -1,0 +1,11 @@
+<button type="button" class="btn btn-primary btn-lg" (click)="createEducation()">Agregar Nueva</button>
+
+<div *ngFor="let education of educations">
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{education.degree}}</h5>
+      <button type="button" class="btn btn-primary" (click)="updateEducation(education.id)">Actualizar</button>
+      <button type="button" class="btn btn-danger" (click)="deleteEducation(education.id)">Borrar</button>
+    </div>
+  </div>
+  </div>
