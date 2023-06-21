@@ -1,0 +1,33 @@
+<form [formGroup]="myForm" (ngSubmit)="submitForm()">
+    <div>
+      <label>Degree</label>
+      <input type="text" formControlName="degree">
+
+    </div>
+  
+    <div>
+      <label>Description</label>
+      <textarea formControlName="description"></textarea>
+
+    </div>
+  
+    <div>
+      <label>Establishment</label>
+      <input type="text" formControlName="establishment">
+
+    </div>
+  
+    <div>
+      <label>Logo</label>
+      <input type="text" formControlName="logo">
+    </div>
+
+    <div>
+      <label>id perfil</label>
+      <input type="text" formControlName="idProfile">
+    </div>
+  
+  
+    <button type="submit" [disabled]="myForm.invalid">Submit</button>
+  </form>
+  

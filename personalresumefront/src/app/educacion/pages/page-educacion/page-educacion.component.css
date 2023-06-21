@@ -1,0 +1,9 @@
+.card-style{
+   background: linear-gradient(to right, rgb(194, 228, 212) 0%, lightgreen 60%,rgb(51, 154, 51) 100%);
+}
+.title-entity{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 0 rgba(76, 179, 107, 0.946);
+    font-size: 50px;
+}
